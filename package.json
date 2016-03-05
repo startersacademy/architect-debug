@@ -1,0 +1,32 @@
+{
+  "name": "architect-debug",
+  "description": "Architect.js plugin to expose the excellent debug library.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Todd Bashor",
+    "email": "todd@thestartersacademy.com"
+  },
+  "license": "MIT",
+  "main": "./service.js",
+  "keywords": [
+    "debug",
+    "log",
+    "debugger",
+    "architect",
+    "plugin"
+  ],
+  "plugin": {
+    "consumes": [],
+    "provides": [
+      "debug"
+    ]
+  },
+  "dependencies": {
+    "debug": "2.2.0"
+  },
+  "readme": "",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/startersacademy/architect-debug.git"
+  }
+}
